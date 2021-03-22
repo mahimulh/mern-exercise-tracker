@@ -26,7 +26,7 @@ app.use('/exercises', exerciseRouter);
 app.use('/users', usersRouter);
 
 app.listen(port, () => {
-    console.log(`Serveris running on port: ${port}`);
+    console.log(`Server is running on port: ${port}`);
 });
 
 /*
